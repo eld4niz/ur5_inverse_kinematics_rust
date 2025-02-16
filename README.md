@@ -1,7 +1,6 @@
 # Inverse Kinematics in Rust for 6DoF Robots
 
-## Overview
-This project implements inverse kinematics (IK) for a 6-degree-of-freedom (DOF) robotic arm using numerical methods. The code uses the **Newton-Raphson root-finding algorithm** to iteratively compute joint angles that achieve a desired end-effector position and orientation.
+The code uses the **Newton-Raphson root-finding algorithm** to iteratively compute joint angles that achieve a desired end-effector position and orientation.
 
 ## Degrees of Freedom (DOF) in Robotics
 In robotics, **DOF** refers to the number of independent movements a robotic system can perform. A robotic arm with **6 DOF** can move in three translational directions (X, Y, Z) and rotate about three axes (roll, pitch, yaw). This makes it capable of reaching any pose in 3D space.
