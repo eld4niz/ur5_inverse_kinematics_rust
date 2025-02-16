@@ -1,4 +1,4 @@
-# Inverse Kinematics and Motion Planning in Robotics
+# Inverse Kinematics in Rust for 6DoF Robots
 
 ## Overview
 This project implements inverse kinematics (IK) for a 6-degree-of-freedom (DOF) robotic arm using numerical methods. The code uses the **Newton-Raphson root-finding algorithm** to iteratively compute joint angles that achieve a desired end-effector position and orientation.
